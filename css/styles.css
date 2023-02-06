@@ -8,8 +8,7 @@ body {
     overflow: hidden;
     background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left 0vw bottom 50vh;
+    background-size: 100% 50%;
 }
 
 .illustration-img {
@@ -22,8 +21,8 @@ body {
     border-radius: 20px;
     margin-top: -50px;
     width: 370px;
-    height: 395px;
-    padding-top: 45px;
+    height: 375px;
+    padding-top: 65px;
 }
 
 h1 {
@@ -49,7 +48,7 @@ p {
     background-color: hsl(225, 100%, 98%);
     width: 300px;
     height: 70px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 35px;
     border-radius: 8px;
 }
@@ -98,13 +97,13 @@ table {
 }
 
 .payment-button {
-    box-shadow: 0px 6px 14px -7px #276873;
+    box-shadow: 0px 6px 14px -7px hsl(223, 47%, 23%);
     background-color: hsl(245, 75%, 52%);
     border-radius: 8px;
     display: inline-block;
     cursor: pointer;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     text-align: center;
     padding-top: 12px;
@@ -126,7 +125,7 @@ table {
     display: inline-block;
     cursor: pointer;
     color: hsl(224, 23%, 55%);
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     text-align: center;
     padding-top: 12px;
