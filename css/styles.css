@@ -13,13 +13,13 @@ body {
 }
 
 .illustration-img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .container {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     margin-top: -50px;
     width: 370px;
     height: 395px;
@@ -125,7 +125,7 @@ table {
     background-color: white;
     display: inline-block;
     cursor: pointer;
-    color: hsl(223, 47%, 23%);
+    color: hsl(224, 23%, 55%);
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -136,5 +136,5 @@ table {
 }
 
 .cancel-button:hover {
-    color: hsl(224, 23%, 55%);
+    color: hsl(223, 47%, 23%);
 }
